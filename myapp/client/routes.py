@@ -1,8 +1,8 @@
 from flask import Blueprint
 
-site = Blueprint('site', __name__)
+client = Blueprint('client', __name__)
 
 
-@site.route('/')
+@client.route('/')
 def index():
     return '<h1>Welcome to the homepage!</h1>'

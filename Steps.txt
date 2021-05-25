@@ -1,0 +1,5 @@
+01. virtualenv env
+02. env/Scripts/activate
+03. create myapp folder
+04. set FLASK_APP=myapp
+05. 
